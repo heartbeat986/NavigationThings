@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "List/ListFirstViewController.h"
+#import "discover/DisFirstViewController.h"
+#import "My/MyFirstViewController.h"
+#import "JXXNavigationViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +22,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    
+    
+   
+    
+    
+    UITabBarController *tabVc = [[UITabBarController alloc] init];
+    
+    ViewController *vc1 = [[ViewController alloc] init];
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:vc1];
+    
+    
+    ListFirstViewController *vc2 = [[ListFirstViewController alloc] init];
+    JXXNavigationViewController *nav2 = [[JXXNavigationViewController alloc] initWithRootViewController:vc2];
+    
+    DisFirstViewController *vc3 = [[DisFirstViewController alloc] init];
+    UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:vc3];
+    
+    MyFirstViewController *vc4 = [[MyFirstViewController alloc] init];
+    UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:vc4];
+    
+    [tabVc addChildViewController:nav1];
+    [tabVc addChildViewController:nav2];
+    [tabVc addChildViewController:nav3];
+    [tabVc addChildViewController:nav4];
+    
+    window.rootViewController = tabVc;
+    
+    [self.window makeKeyWindow];
+    
     return YES;
 }
 

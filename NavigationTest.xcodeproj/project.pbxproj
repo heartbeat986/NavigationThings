@@ -15,6 +15,18 @@
 		10E5AFD5230F878400F89B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AFD4230F878400F89B84 /* main.m */; };
 		10E5AFDF230F878400F89B84 /* NavigationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AFDE230F878400F89B84 /* NavigationTestTests.m */; };
 		10E5AFEA230F878500F89B84 /* NavigationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AFE9230F878500F89B84 /* NavigationTestUITests.m */; };
+		10E5AFF9230F88CB00F89B84 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AFF8230F88CB00F89B84 /* SecondViewController.m */; };
+		10E5AFFC230F88D500F89B84 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AFFB230F88D500F89B84 /* ThirdViewController.m */; };
+		10E5B003230FD1BF00F89B84 /* ListFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B002230FD1BF00F89B84 /* ListFirstViewController.m */; };
+		10E5B006230FD1CC00F89B84 /* ListSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B005230FD1CC00F89B84 /* ListSecondViewController.m */; };
+		10E5B009230FD1D700F89B84 /* ListThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B008230FD1D700F89B84 /* ListThirdViewController.m */; };
+		10E5B00C230FD1EB00F89B84 /* DisFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B00B230FD1EB00F89B84 /* DisFirstViewController.m */; };
+		10E5B00F230FD1F800F89B84 /* DisSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B00E230FD1F800F89B84 /* DisSecondViewController.m */; };
+		10E5B012230FD20300F89B84 /* DisThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B011230FD20300F89B84 /* DisThirdViewController.m */; };
+		10E5B015230FD20F00F89B84 /* MyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B014230FD20F00F89B84 /* MyFirstViewController.m */; };
+		10E5B018230FD21D00F89B84 /* MySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B017230FD21D00F89B84 /* MySecondViewController.m */; };
+		10E5B01B230FD22900F89B84 /* MyThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B01A230FD22900F89B84 /* MyThirdViewController.m */; };
+		10E5B01E230FD30000F89B84 /* JXXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5B01D230FD30000F89B84 /* JXXNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,30 @@
 		10E5AFE5230F878500F89B84 /* NavigationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E5AFE9230F878500F89B84 /* NavigationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTestUITests.m; sourceTree = "<group>"; };
 		10E5AFEB230F878500F89B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E5AFF7230F88CB00F89B84 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		10E5AFF8230F88CB00F89B84 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		10E5AFFA230F88D500F89B84 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		10E5AFFB230F88D500F89B84 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		10E5B001230FD1BF00F89B84 /* ListFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListFirstViewController.h; sourceTree = "<group>"; };
+		10E5B002230FD1BF00F89B84 /* ListFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListFirstViewController.m; sourceTree = "<group>"; };
+		10E5B004230FD1CC00F89B84 /* ListSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListSecondViewController.h; sourceTree = "<group>"; };
+		10E5B005230FD1CC00F89B84 /* ListSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListSecondViewController.m; sourceTree = "<group>"; };
+		10E5B007230FD1D700F89B84 /* ListThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListThirdViewController.h; sourceTree = "<group>"; };
+		10E5B008230FD1D700F89B84 /* ListThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListThirdViewController.m; sourceTree = "<group>"; };
+		10E5B00A230FD1EB00F89B84 /* DisFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisFirstViewController.h; sourceTree = "<group>"; };
+		10E5B00B230FD1EB00F89B84 /* DisFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisFirstViewController.m; sourceTree = "<group>"; };
+		10E5B00D230FD1F800F89B84 /* DisSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisSecondViewController.h; sourceTree = "<group>"; };
+		10E5B00E230FD1F800F89B84 /* DisSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisSecondViewController.m; sourceTree = "<group>"; };
+		10E5B010230FD20300F89B84 /* DisThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisThirdViewController.h; sourceTree = "<group>"; };
+		10E5B011230FD20300F89B84 /* DisThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisThirdViewController.m; sourceTree = "<group>"; };
+		10E5B013230FD20F00F89B84 /* MyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstViewController.h; sourceTree = "<group>"; };
+		10E5B014230FD20F00F89B84 /* MyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstViewController.m; sourceTree = "<group>"; };
+		10E5B016230FD21D00F89B84 /* MySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySecondViewController.h; sourceTree = "<group>"; };
+		10E5B017230FD21D00F89B84 /* MySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySecondViewController.m; sourceTree = "<group>"; };
+		10E5B019230FD22900F89B84 /* MyThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyThirdViewController.h; sourceTree = "<group>"; };
+		10E5B01A230FD22900F89B84 /* MyThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyThirdViewController.m; sourceTree = "<group>"; };
+		10E5B01C230FD30000F89B84 /* JXXNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXXNavigationViewController.h; sourceTree = "<group>"; };
+		10E5B01D230FD30000F89B84 /* JXXNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXXNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +137,19 @@
 		10E5AFC4230F877F00F89B84 /* NavigationTest */ = {
 			isa = PBXGroup;
 			children = (
+				10E5B000230FD19F00F89B84 /* discover */,
+				10E5AFFF230FD19F00F89B84 /* List */,
+				10E5AFFD230FD19F00F89B84 /* Main */,
+				10E5AFFE230FD19F00F89B84 /* My */,
 				10E5AFC5230F877F00F89B84 /* AppDelegate.h */,
 				10E5AFC6230F877F00F89B84 /* AppDelegate.m */,
-				10E5AFC8230F877F00F89B84 /* ViewController.h */,
-				10E5AFC9230F877F00F89B84 /* ViewController.m */,
 				10E5AFCB230F877F00F89B84 /* Main.storyboard */,
 				10E5AFCE230F878400F89B84 /* Assets.xcassets */,
 				10E5AFD0230F878400F89B84 /* LaunchScreen.storyboard */,
 				10E5AFD3230F878400F89B84 /* Info.plist */,
 				10E5AFD4230F878400F89B84 /* main.m */,
+				10E5B01C230FD30000F89B84 /* JXXNavigationViewController.h */,
+				10E5B01D230FD30000F89B84 /* JXXNavigationViewController.m */,
 			);
 			path = NavigationTest;
 			sourceTree = "<group>";
@@ -130,6 +170,58 @@
 				10E5AFEB230F878500F89B84 /* Info.plist */,
 			);
 			path = NavigationTestUITests;
+			sourceTree = "<group>";
+		};
+		10E5AFFD230FD19F00F89B84 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				10E5AFC8230F877F00F89B84 /* ViewController.h */,
+				10E5AFC9230F877F00F89B84 /* ViewController.m */,
+				10E5AFF7230F88CB00F89B84 /* SecondViewController.h */,
+				10E5AFF8230F88CB00F89B84 /* SecondViewController.m */,
+				10E5AFFA230F88D500F89B84 /* ThirdViewController.h */,
+				10E5AFFB230F88D500F89B84 /* ThirdViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		10E5AFFE230FD19F00F89B84 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				10E5B013230FD20F00F89B84 /* MyFirstViewController.h */,
+				10E5B014230FD20F00F89B84 /* MyFirstViewController.m */,
+				10E5B016230FD21D00F89B84 /* MySecondViewController.h */,
+				10E5B017230FD21D00F89B84 /* MySecondViewController.m */,
+				10E5B019230FD22900F89B84 /* MyThirdViewController.h */,
+				10E5B01A230FD22900F89B84 /* MyThirdViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		10E5AFFF230FD19F00F89B84 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				10E5B001230FD1BF00F89B84 /* ListFirstViewController.h */,
+				10E5B002230FD1BF00F89B84 /* ListFirstViewController.m */,
+				10E5B004230FD1CC00F89B84 /* ListSecondViewController.h */,
+				10E5B005230FD1CC00F89B84 /* ListSecondViewController.m */,
+				10E5B007230FD1D700F89B84 /* ListThirdViewController.h */,
+				10E5B008230FD1D700F89B84 /* ListThirdViewController.m */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		10E5B000230FD19F00F89B84 /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				10E5B00A230FD1EB00F89B84 /* DisFirstViewController.h */,
+				10E5B00B230FD1EB00F89B84 /* DisFirstViewController.m */,
+				10E5B00D230FD1F800F89B84 /* DisSecondViewController.h */,
+				10E5B00E230FD1F800F89B84 /* DisSecondViewController.m */,
+				10E5B010230FD20300F89B84 /* DisThirdViewController.h */,
+				10E5B011230FD20300F89B84 /* DisThirdViewController.m */,
+			);
+			path = discover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +354,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E5AFF9230F88CB00F89B84 /* SecondViewController.m in Sources */,
+				10E5B00F230FD1F800F89B84 /* DisSecondViewController.m in Sources */,
+				10E5B006230FD1CC00F89B84 /* ListSecondViewController.m in Sources */,
+				10E5B009230FD1D700F89B84 /* ListThirdViewController.m in Sources */,
+				10E5AFFC230F88D500F89B84 /* ThirdViewController.m in Sources */,
 				10E5AFCA230F877F00F89B84 /* ViewController.m in Sources */,
+				10E5B018230FD21D00F89B84 /* MySecondViewController.m in Sources */,
+				10E5B012230FD20300F89B84 /* DisThirdViewController.m in Sources */,
 				10E5AFD5230F878400F89B84 /* main.m in Sources */,
 				10E5AFC7230F877F00F89B84 /* AppDelegate.m in Sources */,
+				10E5B01B230FD22900F89B84 /* MyThirdViewController.m in Sources */,
+				10E5B00C230FD1EB00F89B84 /* DisFirstViewController.m in Sources */,
+				10E5B003230FD1BF00F89B84 /* ListFirstViewController.m in Sources */,
+				10E5B01E230FD30000F89B84 /* JXXNavigationViewController.m in Sources */,
+				10E5B015230FD20F00F89B84 /* MyFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +542,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q8DSQ35587;
 				INFOPLIST_FILE = NavigationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q8DSQ35587;
 				INFOPLIST_FILE = NavigationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
