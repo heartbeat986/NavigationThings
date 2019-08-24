@@ -24,6 +24,7 @@ navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor wh
 这种会离屏幕左边会有较大的的间隙，我们可以调整`titleEdgeInsets`和`imageEdgeInsets`。
 
 2. 使用系统实现自定义
+
 第一步：设置图片与颜色
 ```
   navigationBar.backIndicatorImage = [[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
