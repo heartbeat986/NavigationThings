@@ -68,6 +68,17 @@ viewcontroller.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initW
 #### 新建一个分类
 新建一个UIViewController分类，该分类有一个属性`isNavbarHidden`，用运行时实现它。
 
+#### 设置
+```
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    if (viewController.isNavbarHidden) {
+        [self setNavigationBarHidden:YES animated:animated];
+    }else{
+        [self setNavigationBarHidden:NO animated:animated];
+    }
+}
+```
+在需要隐藏的控制器中设置isNavbarHidden即可。
 
 
 
