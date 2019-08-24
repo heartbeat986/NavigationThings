@@ -62,7 +62,7 @@ viewcontroller.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initW
     [self.navigationController setNavigationBarHidden:NO animated:animated];
 }
 ```
-*再这里有个问题，有些人会遇到切换tab时，隐藏的导航栏会有个往上消失的动画。其实只需要把`setNavigationBarHidden`中的`animated`设置为方法传进来的值就行，不要自己写死。
+*再这里有个问题，有些人会遇到切换tab时，隐藏的导航栏会有个往上消失的动画。其实只需要把`setNavigationBarHidden`中的`animated`设置为方法传进来的值就行，不要自己写死*。
 
 ### 便捷
 每个控制器中这么写很糟心，我们需要更好的解决办法：
