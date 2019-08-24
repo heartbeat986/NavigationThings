@@ -39,14 +39,10 @@
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
     
-    UIButton *back = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 44)];
-    [back setTitle:@"要返回咯" forState:UIControlStateNormal];
-    [back setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithCustomView:back];
-    
     self.navigationController.navigationBar.backIndicatorImage = [[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.navigationController.navigationBar.backIndicatorTransitionMaskImage = [[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    self.navigationItem.backBarButtonItem = backItem;
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"要返回咯" style:UIBarButtonItemStylePlain target:self action:@selector(toPop)];
+    [self.navigationItem.backBarButtonItem setTintColor:[UIColor redColor]];
 
 
 }
@@ -55,6 +51,9 @@
     SecondViewController *secondVc = [[SecondViewController alloc] init];
     [self.navigationController pushViewController:secondVc animated:YES];
     self.tabBarController.hidesBottomBarWhenPushed = YES;
+}
+- (void)toPop{
+    NSLog(@"退出");
 }
 
 

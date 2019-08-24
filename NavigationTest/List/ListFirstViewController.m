@@ -20,6 +20,7 @@
     self.title = @"列表";
     [self buildSubViews];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationItem.backBarButtonItem setTintColor:[UIColor redColor]];
 }
 
 - (void)buildSubViews{
@@ -31,7 +32,6 @@
     pushBtn.center = self.view.center;
     pushBtn.bounds = CGRectMake(0, 0, 100, 50);
     pushBtn.backgroundColor = [UIColor blueColor];
-    
 }
 
 - (void)toPush{
