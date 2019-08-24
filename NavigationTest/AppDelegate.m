@@ -34,7 +34,6 @@
     ViewController *vc1 = [[ViewController alloc] init];
     UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:vc1];
     
-    
     ListFirstViewController *vc2 = [[ListFirstViewController alloc] init];
     JXXNavigationViewController *nav2 = [[JXXNavigationViewController alloc] initWithRootViewController:vc2];
     
@@ -42,7 +41,7 @@
     UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:vc3];
     
     MyFirstViewController *vc4 = [[MyFirstViewController alloc] init];
-    UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:vc4];
+    JXXNavigationViewController *nav4 = [[JXXNavigationViewController alloc] initWithRootViewController:vc4];
     
     [tabVc addChildViewController:nav1];
     [tabVc addChildViewController:nav2];
@@ -58,8 +57,7 @@
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    
 }
 
 

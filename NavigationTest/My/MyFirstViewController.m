@@ -7,6 +7,8 @@
 //
 
 #import "MyFirstViewController.h"
+#import "MySecondViewController.h"
+#import "UIViewController+NavbarHidden.h"
 
 @interface MyFirstViewController ()
 
@@ -17,17 +19,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"我的";
+    [self buildSubViews];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.hidden = YES;
     // Do any additional setup after loading the view.
+    self.isNavbarHidden = YES;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)buildSubViews{
+    UIButton *push = [[UIButton alloc] init];
+    [self.view addSubview:push];
+    push.center = self.view.center;
+    push.bounds = CGRectMake(0, 0, 100, 60);
+    [push setTitle:@"push" forState:UIControlStateNormal];
+    [push setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [push addTarget:self action:@selector(toPush) forControlEvents:UIControlEventTouchUpInside];
 }
-*/
+
+- (void)toPush{
+    MySecondViewController *secondVc = [[MySecondViewController alloc] init];
+    [self.navigationController pushViewController:secondVc animated:YES];
+    self.tabBarController.hidesBottomBarWhenPushed = YES;
+}
 
 @end

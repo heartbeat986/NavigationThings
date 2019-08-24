@@ -7,6 +7,7 @@
 //
 
 #import "JXXNavigationViewController.h"
+#import "UIViewController+NavbarHidden.h"
 
 @interface JXXNavigationViewController ()<UINavigationBarDelegate,UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 
@@ -44,6 +45,7 @@
 }
 
 - (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    
     if (self.viewControllers.count > 1) {
         self.interactivePopGestureRecognizer.delegate = self;
         self.interactivePopGestureRecognizer.enabled = YES;
@@ -52,6 +54,15 @@
         self.interactivePopGestureRecognizer.enabled = NO;
     }
 }
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    if (viewController.isNavbarHidden) {
+        [self setNavigationBarHidden:YES animated:animated];
+    }else{
+        [self setNavigationBarHidden:NO animated:animated];
+    }
+}
+
+
 
 - (void)toPop{
     [self popViewControllerAnimated:YES];

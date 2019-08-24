@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108986FA2310CBCC004483E9 /* UIViewController+NavbarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 108986F92310CBCC004483E9 /* UIViewController+NavbarHidden.m */; };
 		10E5AFC7230F877F00F89B84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AFC6230F877F00F89B84 /* AppDelegate.m */; };
 		10E5AFCA230F877F00F89B84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5AFC9230F877F00F89B84 /* ViewController.m */; };
 		10E5AFCD230F877F00F89B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E5AFCB230F877F00F89B84 /* Main.storyboard */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		108986F82310CBCC004483E9 /* UIViewController+NavbarHidden.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavbarHidden.h"; sourceTree = "<group>"; };
+		108986F92310CBCC004483E9 /* UIViewController+NavbarHidden.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavbarHidden.m"; sourceTree = "<group>"; };
 		10E5AFC2230F877F00F89B84 /* NavigationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E5AFC5230F877F00F89B84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10E5AFC6230F877F00F89B84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				10E5AFD4230F878400F89B84 /* main.m */,
 				10E5B01C230FD30000F89B84 /* JXXNavigationViewController.h */,
 				10E5B01D230FD30000F89B84 /* JXXNavigationViewController.m */,
+				108986F82310CBCC004483E9 /* UIViewController+NavbarHidden.h */,
+				108986F92310CBCC004483E9 /* UIViewController+NavbarHidden.m */,
 			);
 			path = NavigationTest;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				10E5AFCA230F877F00F89B84 /* ViewController.m in Sources */,
 				10E5B018230FD21D00F89B84 /* MySecondViewController.m in Sources */,
 				10E5B012230FD20300F89B84 /* DisThirdViewController.m in Sources */,
+				108986FA2310CBCC004483E9 /* UIViewController+NavbarHidden.m in Sources */,
 				10E5AFD5230F878400F89B84 /* main.m in Sources */,
 				10E5AFC7230F877F00F89B84 /* AppDelegate.m in Sources */,
 				10E5B01B230FD22900F89B84 /* MyThirdViewController.m in Sources */,
